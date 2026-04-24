@@ -1,0 +1,18 @@
+[project]
+name = "fraud_detection"
+version = "0.1.0"
+description = "Production-grade credit card fraud detection system"
+authors = [{ name = "Sathwik" }]
+dependencies = [
+    "zenml[server]",
+    "mlflow",
+    "evidently",
+    "scikit-learn",
+    "xgboost",
+    "pandas",
+    "numpy",
+    "pyyaml"
+]
+
+[tool.setuptools]
+packages = ["core", "steps", "pipelines"]

@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ZenML & MLflow (Local tracking)
+.zen/
+mlruns/
+*.db
+
+# Data (Never commit large datasets or sensitive CSVs)
+*.csv
+*.parquet
+
+# OS files
+.DS_Store
+Thumbs.db
